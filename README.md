@@ -24,16 +24,16 @@ The dataset provides **79 features** describing residential homes in Ames, Iowa,
 -  Loaded and merged train & test sets for uniform processing  
 -  Analyzed dataset structure using `.info()` and `.head()`  
 -  **Handled missing values** using domain knowledge:
-  - Replaced categorical NAs with `'None'`
-  - Filled numeric missing values with `0`, median, or mode  
+    Replaced categorical NAs with `'None'`
+    Filled numeric missing values with `0`, median, or mode  
 -  **Feature Engineering**:
-  - `TotalSF`, `TotalBathrooms`, `Age`, `RemodAge`
-  - Binary features: `HasPool`, `HasGarage`, `HasFireplace`, `HasBsmt`
+    `TotalSF`, `TotalBathrooms`, `Age`, `RemodAge`
+    Binary features: `HasPool`, `HasGarage`, `HasFireplace`, `HasBsmt`
 -  **Ordinal Encoding** of quality/condition columns using a custom scale  
 -  **Label Encoding** of remaining categorical features  
 -  Final dataset split into:
-  - `processed_train.csv`
-  - `processed_test.csv`  
+    `processed_train.csv`
+    `processed_test.csv`  
 -  Used clear markdowns and outputs to review each processing step
 
 ---
